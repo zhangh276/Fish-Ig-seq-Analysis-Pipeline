@@ -26,5 +26,5 @@ Fish-Ig-seq-Analysis-Pipeline/
 ├── example_output/
 ├── run_demo.sh
 └── run_pipeline.sh
-
+```
 The exact structure of the repository may be updated as the analysis workflow is further improved and documented.

@@ -1,0 +1,4 @@
+sample_id	strain	condition	R1_fastq	R2_fastq	V3J
+demo1	AB	demo	example_data/fastq/demo1_R1.fastq.gz	example_data/fastq/demo1_R2.fastq.gz	193
+demo2	AB	demo	example_data/fastq/demo2_R1.fastq.gz	example_data/fastq/demo2_R2.fastq.gz	126
+demo3	AB	demo	example_data/fastq/demo3_R1.fastq.gz	example_data/fastq/demo3_R2.fastq.gz	49

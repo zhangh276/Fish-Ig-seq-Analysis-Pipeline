@@ -61,7 +61,7 @@ The workflow was developed and tested on a Linux system.
 Tested system:
 
 ```text
-CentOS Linux
+CentOS Linux 7 (Core)
 ```
 
 The pipeline is expected to run on other Linux distributions with the required dependencies installed. macOS may support some steps but has not been fully tested.

@@ -224,7 +224,7 @@ The demo workflow automatically removes any previous `results/` directory and ge
 
 ## Expected demo run time
 
-Expected run time for the demo dataset is approximately 10-60 minutes on a standard desktop or laptop computer.
+Expected run time for the demo dataset is approximately 10 minutes on a standard desktop or laptop computer.
 
 Run time depends on the number of reads in the demo FASTQ files and the number of CDR3 clonotypes used for the network analysis.
 
@@ -665,7 +665,7 @@ The resulting FASTQ files should be listed in the metadata file and placed in th
 
 ## Reproducibility
 
-The same standardized computational workflow was applied to the newly generated zebrafish Ig-seq data and to the previously published Ig-seq datasets reanalysed in the study.
+The same standardized computational workflow was applied to the zebrafish Ig-seq data and to the previously published human/mouse/trout Ig-seq datasets reanalysed in the study.
 
 This repository provides:
 

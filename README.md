@@ -71,11 +71,11 @@ The pipeline is expected to run on other Linux distributions with the required d
 The following software is required:
 
 ```text
-Java
+Java (tested version: 11.0.13)
 MiXCR (tested version: v4.7.0)
 MIGEC (tested version: v1.2.9)
-seqtk
-R
+seqtk (tested version: v1.3)
+R (tested version: v4.3.1)
 ```
 
 The workflow uses shell scripts and R scripts. Bash-compatible shell is required.

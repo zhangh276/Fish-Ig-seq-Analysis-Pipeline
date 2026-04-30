@@ -1,0 +1,1 @@
+migec-1.2.9.jar CheckoutBatch -u -t -o results/01_migec/demo1/barcode.txt results/01_migec/demo1/Checkout/

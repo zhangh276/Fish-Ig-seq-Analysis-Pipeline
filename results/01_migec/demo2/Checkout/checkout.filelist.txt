@@ -1,0 +1,2 @@
+#SAMPLE_ID	SAMPLE_TYPE	CHECKOUT_FASTQ1	CHECKOUT_FASTQ2
+demo2	paired	/RAID5_32T/zh/Ig_seq/zebrafish_Ig_seq/github/results/01_migec/demo2/Checkout/demo2_R1.fastq	/RAID5_32T/zh/Ig_seq/zebrafish_Ig_seq/github/results/01_migec/demo2/Checkout/demo2_R2.fastq

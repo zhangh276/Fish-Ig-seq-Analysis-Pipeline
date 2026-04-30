@@ -1,0 +1,1 @@
+demo2	NNNNNNNNNNNNGTACGG		example_data/fastq/demo2_R2.fastq.gz	example_data/fastq/demo2_R1.fastq.gz

@@ -1,0 +1,12 @@
+query	target	LD
+seq_34	seq_35	1
+seq_34	seq_50	1
+seq_35	seq_36	1
+seq_35	seq_40	1
+seq_36	seq_41	1
+seq_36	seq_50	1
+seq_40	seq_41	1
+seq_40	seq_50	1
+seq_43	seq_45	1
+seq_51	seq_59	1
+seq_51	seq_74	1

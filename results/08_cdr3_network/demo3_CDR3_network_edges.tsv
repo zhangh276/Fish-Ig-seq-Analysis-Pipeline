@@ -1,0 +1,17 @@
+query	target	LD
+seq_6	seq_7	1
+seq_8	seq_9	1
+seq_9	seq_10	1
+seq_9	seq_13	1
+seq_11	seq_12	1
+seq_15	seq_16	1
+seq_15	seq_17	1
+seq_16	seq_18	1
+seq_16	seq_19	1
+seq_16	seq_20	1
+seq_17	seq_18	1
+seq_17	seq_19	1
+seq_17	seq_20	1
+seq_21	seq_22	1
+seq_32	seq_33	1
+seq_33	seq_34	1

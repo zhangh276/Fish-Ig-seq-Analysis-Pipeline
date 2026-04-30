@@ -421,8 +421,8 @@ IGHJ2*01   -> IGHJ2
 Two weighting schemes are used:
 
 ```text
-V3J_weight: each CDR3 clonotype contributes one count
-reads_weight: each CDR3 clonotype is weighted by readCount
+V3J_weight: each V3J clonotype contributes one count
+reads_weight: each V3J clonotype is weighted by readCount
 ```
 
 Output:
@@ -561,6 +561,9 @@ results/
 Key final output files include:
 
 ```text
+results/03_cdr3_tsv/<sample_id>_CDR3_clones_IGH.tsv
+results/05_vdjregion_mutation_tsv/<sample_id>_VDJRegion_clones_IGH.tsv
+results/05_vdjregion_mutation_tsv/<sample_id>_mutation_IGH.tsv
 results/06_ighv_vj_usage/IGHV_V3J_weight_matrix.tsv
 results/06_ighv_vj_usage/IGHV_reads_weight_matrix.tsv
 results/06_ighv_vj_usage/VJ_V3J_weight_matrix.tsv
@@ -620,7 +623,7 @@ Example:
 ```csv
 sample_id,strain,condition,R1_fastq,R2_fastq
 demo1,AB,demo,example_data/fastq/demo1_R1.fastq.gz,example_data/fastq/demo1_R2.fastq.gz
-demo2,TU,demo,example_data/fastq/demo2_R1.fastq.gz,example_data/fastq/demo2_R2.fastq.gz
+demo2,AB,demo,example_data/fastq/demo2_R1.fastq.gz,example_data/fastq/demo2_R2.fastq.gz
 demo3,AB,demo,example_data/fastq/demo3_R1.fastq.gz,example_data/fastq/demo3_R2.fastq.gz
 ```
 

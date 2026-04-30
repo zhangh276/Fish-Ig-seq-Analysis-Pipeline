@@ -8,6 +8,15 @@ This project uses zebrafish Ig-seq data as an example to demonstrate our analysi
 
 This repository provides custom scripts, demo data, reference files, and instructions for running the analysis pipeline.
 
+## Features
+
+1) This pipeline can handle isotype-specific D and J segments in fish IGH loci. Unlike mammalian IGH loci, fish IGH loci contain V segments shared across isotypes, but private D and J segments for different isotypes. (doi: https://doi.org/10.1038/nri889) 
+2) This pipeline can handle multiple IGH loci in fish genomes. Unlike mammals, which typically possess a single IGH locus, some teleost species (e.g., rainbow trout and Atlantic salmon) harbor two or more IGH loci. (doi: https://doi.org/10.3389/fimmu.2019.02541)
+3) This pipeline can handle the high genetic heterozygosity and strain/population-level variation of IGH genes in fish genomes. 
+4) This pipeline can discriminate strain- or population-specific V/D/J segments, such as those found in the AB and TU zebrafish strains. 
+5) This pipeline can handle 5′ RACE-based and UMI-based repertoire libraries. 
+6) This pipeline is also compatible with mammalian Ig-seq datasets, enabling comparative repertoire analyses across fish and mammalian species.
+
 ## Repository structure
 
 ```text

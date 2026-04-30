@@ -1,0 +1,4 @@
+#INPUT_FILE_1	INPUT_FILE_2	SAMPLE	MASTER	MASTER+SLAVE	OVERLAPPED
+example_data/fastq/demo3_R2.fastq.gz	example_data/fastq/demo3_R1.fastq.gz	demo3	9700	9700	null
+example_data/fastq/demo3_R2.fastq.gz	example_data/fastq/demo3_R1.fastq.gz	undef-m	300	300	null
+example_data/fastq/demo3_R2.fastq.gz	example_data/fastq/demo3_R1.fastq.gz	undef-s	0	0	null

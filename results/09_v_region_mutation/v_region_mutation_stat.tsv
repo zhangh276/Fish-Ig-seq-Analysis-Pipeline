@@ -1,0 +1,4 @@
+sample_id	strain	condition	R1_fastq	R2_fastq	cloneCount	allReads	unmutatedReads	unmutatedReadsFraction	mutatedReads	mutatedReadsFraction	meanMutationsPerRead
+demo1	AB	demo	example_data/fastq/demo1_R1.fastq.gz	example_data/fastq/demo1_R2.fastq.gz	79	217	71	0.327188940092166	146	0.672811059907834	1.59447004608295
+demo2	AB	demo	example_data/fastq/demo2_R1.fastq.gz	example_data/fastq/demo2_R2.fastq.gz	20	32	17	0.53125	15	0.46875	1.03125
+demo3	AB	demo	example_data/fastq/demo3_R1.fastq.gz	example_data/fastq/demo3_R2.fastq.gz	21	64	34	0.53125	30	0.46875	1.28125

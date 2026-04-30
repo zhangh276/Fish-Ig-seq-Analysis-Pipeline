@@ -1,4 +1,4 @@
-# Fish Ig-seq Analysis Pipeline
+# Ig-seq Analysis Pipeline for Fish v0.3a
 
 ## Overview
 

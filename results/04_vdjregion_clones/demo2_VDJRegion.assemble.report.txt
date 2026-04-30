@@ -1,0 +1,29 @@
+Analysis date: Thu Apr 30 01:10:17 CST 2026
+Input file(s): results/04_vdjregion_clones/demo2_VDJRegion.alignments.vdjca
+Output file(s): results/04_vdjregion_clones/demo2_VDJRegion.clns
+Version: 4.7.0; built=Thu Aug 08 03:19:48 CST 2024; rev=976ba14139; lib=repseqio.v5.1
+Command line arguments: assemble --report results/04_vdjregion_clones/demo2_VDJRegion.assemble.report.txt --json-report results/04_vdjregion_clones/demo2_VDJRegion.assemble.report.json results/04_vdjregion_clones/demo2_VDJRegion.alignments.vdjca results/04_vdjregion_clones/demo2_VDJRegion.clns
+Analysis time: 351ms
+Final clonotype count: 20
+Reads used in clonotypes, percent of total: 32 (3.48%)
+Average number of reads per clonotype: 1.6
+Reads dropped due to the lack of a clone sequence, percent of total: 88 (9.58%)
+Reads dropped due to a too short clonal sequence, percent of total: 0 (0%)
+Reads dropped due to low quality, percent of total: 0 (0%)
+Reads dropped due to failed mapping, percent of total: 131 (14.25%)
+Reads dropped with low quality clones, percent of total: 2 (0.22%)
+Aligned reads processed: 165
+Reads used in clonotypes before clustering, percent of total: 32 (3.48%)
+Number of reads used as a core, percent of used: 28 (87.5%)
+Mapped low quality reads, percent of used: 4 (12.5%)
+Reads clustered in PCR error correction, percent of used: 0 (0%)
+Reads pre-clustered due to the similar VJC-lists, percent of used: 0 (0%)
+Clonotypes dropped as low quality: 1
+Clonotypes eliminated by PCR error correction: 0
+Clonotypes pre-clustered due to the similar VJC-lists: 0
+Clones dropped in post filtering: 0 (0%)
+Reads dropped in post filtering: 0.0 (0%)
+Reads filtered by tag prefix: 0 (0%)
+IGH chains: 20 (100%)
+IGH non-functional: 0 (0%)
+======================================

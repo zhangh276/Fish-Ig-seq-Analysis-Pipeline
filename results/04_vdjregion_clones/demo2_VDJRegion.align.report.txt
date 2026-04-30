@@ -1,0 +1,38 @@
+Analysis date: Thu Apr 30 01:10:13 CST 2026
+Input file(s): results/01_migec/demo2/consensus/demo2_R1.t2.fastq,results/01_migec/demo2/consensus/demo2_R2.t2.rc.fastq
+Output file(s): results/04_vdjregion_clones/demo2_VDJRegion.alignments.vdjca
+Version: 4.7.0; built=Thu Aug 08 03:19:48 CST 2024; rev=976ba14139; lib=repseqio.v5.1
+Command line arguments: align --report results/04_vdjregion_clones/demo2_VDJRegion.align.report.txt --json-report results/04_vdjregion_clones/demo2_VDJRegion.align.report.json --preset generic-amplicon --save-output-file-names results/04_vdjregion_clones/demo2_VDJRegion.align.list.tsv --rigid-left-alignment-boundary --floating-right-alignment-boundary C --rna --species 7955 --library Dr-AB-IGH --split-clones-by V --split-clones-by V --split-clones-by J --assemble-clonotypes-by VDJRegion results/01_migec/demo2/consensus/demo2_R1.t2.fastq results/01_migec/demo2/consensus/demo2_R2.t2.rc.fastq results/04_vdjregion_clones/demo2_VDJRegion.alignments.vdjca
+Analysis time: 3.22s
+Total sequencing reads: 919
+Successfully aligned reads: 253 (27.53%)
+Coverage (percent of successfully aligned):
+  CDR3: 250 (98.81%)
+  FR3_TO_FR4: 253 (100%)
+  CDR2_TO_FR4: 253 (100%)
+  FR2_TO_FR4: 189 (74.7%)
+  CDR1_TO_FR4: 183 (72.33%)
+  VDJRegion: 165 (65.22%)
+Alignment failed: no hits (not TCR/IG?): 622 (67.68%)
+Alignment failed: absence of V hits: 4 (0.44%)
+Alignment failed: absence of J hits: 40 (4.35%)
+Overlapped: 910 (99.02%)
+Overlapped and aligned: 253 (27.53%)
+Overlapped and not aligned: 657 (71.49%)
+Alignment-aided overlaps, percent of overlapped and aligned: 1 (0.4%)
+Partial aligned reads, percent of successfully aligned: 3 (1.19%)
+Realigned with forced non-floating bound: 20 (2.18%)
+Realigned with forced non-floating right bound in left read: 2 (0.22%)
+Realigned with forced non-floating left bound in right read: 2 (0.22%)
+IGH chains: 253 (100%)
+IGH non-functional: 10 (3.95%)
+Trimming report:
+  R1 reads trimmed left: 6 (0.65%)
+  R1 reads trimmed right: 112 (12.19%)
+  Average R1 nucleotides trimmed left: 0.44613710554951036
+  Average R1 nucleotides trimmed right: 6.169749727965179
+  R2 reads trimmed left: 195 (21.22%)
+  R2 reads trimmed right: 107 (11.64%)
+  Average R2 nucleotides trimmed left: 0.9934711643090316
+  Average R2 nucleotides trimmed right: 4.223068552774755
+======================================

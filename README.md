@@ -2,11 +2,11 @@
 
 ## Overview
 
-Fish Ig-seq Analysis Pipeline is a reproducible workflow for processing and analysing immunoglobulin sequencing (Ig-seq) data from fish and mammals. The pipeline was developed for the analysis of newly generated zebrafish Ig-seq datasets and the reanalysis of previously published Ig-seq datasets from humans, mice, and rainbow trout.
+Fish Ig-seq Analysis Pipeline is an analysis workflow specifically designed for fish Ig-seq data and is tailored to our fish repertoire library preparation strategy based on 5′ RACE and UMI-containing reads. This pipeline supports UMI-based read correction, custom MiXCR reference library construction, clonotype assembly, and V(D)J gene assignment, followed by downstream characterization of repertoire features, including IGHV gene usage and VJ combination analysis, Pearson correlation analysis, CDR3 clonotype network analysis, and V-region somatic hypermutation analysis.
 
-The workflow supports UMI-based read correction, custom MiXCR reference library construction, clonotype assembly, V(D)J gene assignment, IGHV usage profiling, VJ usage profiling, repertoire correlation analysis, CDR3 clonotype network analysis, and V-region somatic hypermutation analysis.
+This project uses zebrafish Ig-seq data as an example to demonstrate our analysis workflow. The pipeline can also be extended to Ig-seq datasets from other fish species and mammalian species. This standardized analytical framework facilitates comparative analyses of antibody repertoire features across species.
 
-This repository provides custom scripts, demo data, reference files, and instructions for running the analysis workflow.
+This repository provides custom scripts, demo data, reference files, and instructions for running the analysis pipeline.
 
 ## Repository structure
 
@@ -48,11 +48,9 @@ The `results/` directory is generated automatically when the demo workflow is ru
 
 ## Data sources
 
-Ig-seq datasets generated in this study from head kidney samples of AB and TU zebrafish are available in the NCBI Sequence Read Archive (SRA) under BioProject accession number PRJNA1027976.
+Ig-seq datasets generated in this study from head kidney samples of AB and TU zebrafish are available in the NCBI Sequence Read Archive (SRA) under BioProject accession number PRJNA1027976. Three demo datasets from individual zebrafish IgM repertoires are provided in the `example_data/fastq/`.
 
-Previously published Ig-seq datasets from humans, mice, and rainbow trout were obtained from the NCBI SRA and reanalysed in this study. These datasets include human PBMC Ig-seq datasets, mouse PBMC, spleen, and bone marrow Ig-seq datasets, and rainbow trout kidney and spleen Ig-seq datasets.
-
-IGHV, IGHD, IGHJ, and IGHC reference sequences used in the demo workflow are provided in `example_data/reference/`. Germline IGHV sequences and annotations used in the manuscript analyses were retrieved from the IMGT database.
+Zebrafish IGHV, IGHD, IGHJ, and IGHC reference sequences used in the demo workflow are provided in `example_data/reference/`. 
 
 ## System requirements
 
@@ -63,7 +61,7 @@ The workflow was developed and tested on a Linux system.
 Tested system:
 
 ```text
-Ubuntu Linux
+CentOS Linux
 ```
 
 The pipeline is expected to run on other Linux distributions with the required dependencies installed. macOS may support some steps but has not been fully tested.
@@ -74,8 +72,8 @@ The following software is required:
 
 ```text
 Java
-MiXCR v4.7.0
-MIGEC v1.2.9
+MiXCR (tested version: v4.7.0)
+MIGEC (tested version: v1.2.9)
 seqtk
 R
 ```
@@ -173,7 +171,7 @@ The custom reference library generated in Step 00 will be copied into this `libr
 
 ## Typical installation time
 
-Typical installation time is approximately 10-30 minutes on a standard desktop computer, depending on internet speed, package manager configuration, and whether MiXCR and MIGEC have already been installed.
+Typical installation time is approximately 10-20 minutes on a standard desktop computer, depending on internet speed, package manager configuration, and whether MiXCR and MIGEC have already been installed.
 
 ## Demo dataset
 
@@ -199,7 +197,7 @@ Example metadata format:
 ```csv
 sample_id,strain,condition,R1_fastq,R2_fastq
 demo1,AB,demo,example_data/fastq/demo1_R1.fastq.gz,example_data/fastq/demo1_R2.fastq.gz
-demo2,TU,demo,example_data/fastq/demo2_R1.fastq.gz,example_data/fastq/demo2_R2.fastq.gz
+demo2,AB,demo,example_data/fastq/demo2_R1.fastq.gz,example_data/fastq/demo2_R2.fastq.gz
 demo3,AB,demo,example_data/fastq/demo3_R1.fastq.gz,example_data/fastq/demo3_R2.fastq.gz
 ```
 

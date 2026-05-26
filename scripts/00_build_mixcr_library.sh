@@ -1,4 +1,4 @@
-et -euo pipefail
+sset -euo pipefail
 
 # Step 00: Build a custom MiXCR reference library from V/D/J/C FASTA files.
 #
